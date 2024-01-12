@@ -1,0 +1,127 @@
+.space__logo-link{
+    display: inline;
+    height: 48px;
+}
+
+.speac-site-header {
+    padding: 40px 0px 131px 55px;
+    
+    min-height: 100vh;
+    
+    background-image: url(../images/space-img/space-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.space-header{
+    margin-bottom: 251px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+// }
+.inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.space-logo{
+    width: 48px;
+    height: 48px;
+}
+.space-navbar{
+    padding: 38px 165px 38px 123px;
+
+    width: 830px;
+
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.774227142333984px);
+}
+.space-list{
+    display: flex;
+    align-items: center;
+}
+.space__item-font{
+    color: #FFF;
+    padding-right: 11px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2.7px;
+}
+.space__navbar-link{
+    color: #FFF;
+    padding-bottom: 35px;
+    font-family: Barlow Condensed , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.7px;
+    border: 3px solid transparent;
+    transition: all 0.5s ease;
+}
+.space__navbar-link:hover{
+    border-bottom: 3px solid white;
+}
+.space__navbar-item + .space__navbar-item {
+    margin-left: 50px;
+}
+.space{
+    display: flex;
+    align-items: center;
+    column-gap: 386px;
+}
+.space-content{
+    width: 445px;
+}
+.space-span{
+    color: #D0D6F9;
+    padding-bottom: 24px;
+    font-family: Barlow Condensed, sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.725px;
+}
+.space-title{
+    color: #FFF;
+    font-family: Bellefair , serif;
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.space-text{
+    color: #D0D6F9;
+    font-family: Barlow, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 177.778% */
+}
+
+.space-btn {
+    display: inline-block;
+    width: 274px;
+    height: 274px;
+
+    border-radius: 50%;
+
+    font-size: 32px;
+    letter-spacing: 2px;
+
+    background-color: #fff;
+    color: #0B0D17;
+
+    border: none;
+    transition: all 0.5s ease;
+}
+.space-btn:hover{
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+}

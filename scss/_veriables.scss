@@ -1,0 +1,8 @@
+@mixin display(
+  $justify-content: space-between,
+  $align-items: start,
+) {
+  display: flex;
+  justify-content: $justify-content;
+  align-items: $align-items;
+}
